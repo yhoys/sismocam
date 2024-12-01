@@ -1,0 +1,85 @@
+html,
+body {
+    margin: 0;
+}
+
+.full-height {
+    transition: 4s;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-container {
+    max-width: 600px;
+    width: 100%;
+    padding: 80px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    background-color: rgb(242, 244, 247);
+    border-radius: 30px;
+}
+
+.admin-title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+}
+
+.register-title {
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+.form-group-inline {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.input-group-text,
+.form-control {
+    border: 1.5px solid gray;
+    font-size: large;
+}
+
+.form-control {
+    background-color: transparent;
+}
+
+.input-group-text {
+    background-color: seashell;
+}
+
+.form-check label {
+    font-size: large;
+}
+
+.form-select {
+    border: 1.5px solid gray;
+    font-size: large;
+    background-color: transparent;
+}
+
+.register-btn-container {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.btn-register {
+    font-weight: bold;
+    font-size: larger;
+    background-color: rgba(44, 214, 178, 1);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.btn-register:hover {
+    background-color: rgba(44, 214, 178, 0.7);
+    color: black;
+}
